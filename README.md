@@ -6,8 +6,8 @@
 
 ## substrings
 
-## stock_picker:
-  placeholder variables created to keep track of best_profit and lowest_index
+## stock_picker
+    placeholder variables created to keep track of best_profit and lowest_index
 
 ## bubble_sort
     **index_counter used to track of array.length**
