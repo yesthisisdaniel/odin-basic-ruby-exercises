@@ -1,11 +1,11 @@
-a = [1, 2, 3, 6, 7, 9, 10, 11, 24, 37]
+a = [1, 5, 2, 99, 45, 86, 6, 119, 9, 11, 7]
 
 def bubble_sort(array) 
     index_counter = 1
     loop do
         counter = 0
-        array.each_with_index do |number, index|
-            if index != array.length - index_counter && array[index] > array[index + 1]
+        array[0...array.length - index_counter].each_with_index do |number, index|
+            if array[index] > array[index + 1]
                 array[index], array[index + 1] = array[index + 1], array[index]
                 counter += 1
             end
